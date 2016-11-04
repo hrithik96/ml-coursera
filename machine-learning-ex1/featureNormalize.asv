@@ -29,11 +29,7 @@ mu=mean(X);
 sigma=std(X);
 
 for iter=1:size(X,1)
-    for j=1:size(X,2)
-        X_norm(iter,j)=(X(iter,j)-mu(1,j))/sigma(1,j);
-    end
-end
-
+    X_norm(iter,1)=X(iter,1)-mu(1,1)_
 
 
 
